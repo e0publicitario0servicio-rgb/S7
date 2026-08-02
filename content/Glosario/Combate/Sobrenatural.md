@@ -1,0 +1,2 @@
+**Atributo:** Espíritu
+La **Defensa Sobrenatural** consume una **Acción Activa**. Puede utilizarse varias veces durante la misma ronda sin sufrir penalizadores y sin consumir Acciones Activas adicionales.

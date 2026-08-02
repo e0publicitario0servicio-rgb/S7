@@ -1,0 +1,2 @@
+**Atributo:** Agilidad
+La **Esquiva** utiliza una **Acción Pasiva** y permite desplazar al personaje hasta una distancia igual a su **Dash**. Cada **esquiva** adicional realizada durante la misma ronda que no pueda pagarse con una Acción Pasiva recibe un **penalizador acumulativo de -3**. Este penalizador se reinicia al comenzar una nueva ronda.
