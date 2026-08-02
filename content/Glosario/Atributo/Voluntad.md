@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Voluntad (Vol)** representa la fortaleza mental y la determinación del personaje frente al miedo, el dolor y la manipulación. Influye en la capacidad **Psi**, las resistencias mentales y proporciona el modificador de la defensa **Psíquica**.
 
 Influye en las siguientes estadísticas del personaje:

@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Agilidad (Agi)** representa la rapidez, coordinación y movilidad del personaje. Determina su velocidad de desplazamiento y su capacidad para evitar ataques mediante la defensa **Esquiva**, además de intervenir en numerosas acciones que requieren movimiento corporal.
 
 Influye en las siguientes estadísticas del personaje:

@@ -1,3 +1,10 @@
+---
+id: carisma
+tipo: atributo
+simbolo: Car
+orden: 2
+---
+
 El **Carisma (Car)** representa la presencia, seguridad y capacidad de influir sobre los demás. Se utiliza en interacciones sociales, liderazgo, negociación y otras situaciones donde la personalidad del personaje resulta determinante.
 
 Influye en las siguientes estadísticas del personaje:

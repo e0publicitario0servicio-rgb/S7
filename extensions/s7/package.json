@@ -1,0 +1,12 @@
+{
+  "name": "s7",
+  "version": "0.1.0",
+  "description": "Sistema S7 para Quartz",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "quartz": {
+    "category": "transformer"
+  }
+}

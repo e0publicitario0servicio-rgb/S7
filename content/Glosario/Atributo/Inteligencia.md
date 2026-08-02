@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Inteligencia (Int)** representa la capacidad para razonar, aprender, analizar y comprender información compleja. Influye en numerosas habilidades intelectuales y proporciona el modificador de la defensa **Desencriptar**.
 
 Influye en las siguientes estadísticas del personaje:

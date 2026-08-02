@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Tenacidad (Ten)** representa la determinación y la capacidad de mantenerse firme frente a la adversidad. Influye en el máximo de **Zeal**, proporciona el modificador de la defensa **Neutral** y refleja la perseverancia del personaje en situaciones límite.
 
 Influye en las siguientes estadísticas del personaje:

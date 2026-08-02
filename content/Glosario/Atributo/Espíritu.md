@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 El **Espíritu (Esp)** representa la conexión del personaje con su alma y las fuerzas sobrenaturales. Influye en la cantidad de **Maná**, la **Sintonía**, la **Amenaza**, las resistencias espirituales y proporciona el modificador de la defensa **Sobrenatural**.
 
 Influye en las siguientes estadísticas del personaje:

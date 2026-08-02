@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Sabiduría (Sab)** representa el juicio, la experiencia y el sentido común del personaje. Permite interpretar correctamente las situaciones, tomar mejores decisiones y aprovechar el conocimiento adquirido a lo largo de su vida.
 
 Influye en las siguientes estadísticas del personaje:

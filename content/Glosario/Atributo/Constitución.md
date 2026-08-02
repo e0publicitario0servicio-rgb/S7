@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Constitución (Con)** representa la resistencia física y la fortaleza del organismo frente al daño, el esfuerzo y las enfermedades. Influye en la Salud, la Energía y diversas resistencias, además de determinar la capacidad del personaje para sobrevivir a situaciones extremas.
 
 Influye en las siguientes estadísticas del personaje:

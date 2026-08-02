@@ -1,3 +1,10 @@
+---
+id:
+tipo: atributo
+simbolo:
+orden:
+---
+
 La **Suerte (Sue)** representa el factor imprevisible que acompaña al personaje. Influye en sucesos favorables o desfavorables, el botín obtenido y la resistencia frente a efectos del azar, además de permitir que acontecimientos inesperados jueguen a su favor.
 
 Influye en las siguientes estadísticas del personaje:
