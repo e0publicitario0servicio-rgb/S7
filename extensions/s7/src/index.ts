@@ -1,5 +1,4 @@
-import { visit } from "unist-util-visit"
-import { Registry } from "./registry.ts"
+import { linksTransformer } from "./transformers/links.ts"
 
 export const manifest = {
   name: "s7",
@@ -16,25 +15,8 @@ export default function () {
     name: "S7",
 
     markdownPlugins() {
-      console.log("📖 markdownPlugins")
-
       return [
-        () => {
-          return (tree: any, file: any) => {
-            console.log("📄", file.data.frontmatter?.title)
-
-            let mostrado = false
-
-            visit(tree, "link", (node: any) => {
-              if (mostrado) return
-
-              console.log("========== LINK ==========")
-              console.dir(node, { depth: null })
-
-              mostrado = true
-            })
-          }
-        },
+        () => linksTransformer(),
       ]
     },
   }
