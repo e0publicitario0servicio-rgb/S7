@@ -1,5 +1,7 @@
 import { linksTransformer } from "./transformers/links.ts"
+import { buildDatabase } from "./builder.ts"
 
+let databaseBuilt = false
 export const manifest = {
   name: "s7",
   displayName: "Sistema S7",
@@ -14,7 +16,14 @@ export default function () {
   return {
     name: "S7",
 
-    markdownPlugins() {
+    markdownPlugins(ctx) {
+      console.log("Archivos:", ctx.allFiles.length)
+
+      if (!databaseBuilt) {
+        databaseBuilt = true
+        buildDatabase(ctx.allFiles)
+      }
+
       return [
         () => linksTransformer(),
       ]
