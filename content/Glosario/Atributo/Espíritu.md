@@ -14,5 +14,5 @@ Influye en las siguientes estadísticas del personaje:
 - **[[Amenaza]]:** Influye en el valor de Amenaza del personaje, sumando su voluntad.
 - **Defensa [[Sobrenatural]]:** Proporciona el modificador utilizado por la defensa **Sobrenatural**.
 - **[[Resistencia]] Espiritual:** Aporta su modificador a las tiradas de Resistencia Espiritual.
-- **[[Habilidades]] basadas en Espíritu:** Aporta su modificador a las habilidades que dependen de Espíritu.
+- **[[Habilidades Principales]] basadas en Espíritu:** Aporta su modificador a las habilidades que dependen de Espíritu.
 - **[[Capacidad]] de Espíritu:** Se utiliza para pagar costes y activar efectos que consumen capacidad de Espíritu.

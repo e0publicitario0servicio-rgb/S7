@@ -1,7 +1,4 @@
 Los **Atributos** representan las capacidades fundamentales de un personaje y sirven como base para la mayoría de las mecánicas de S7. Determinan el potencial del personaje en distintos ámbitos y proporcionan modificadores a habilidades, defensas, resistencias y otros valores derivados.
-
-Durante la creación del personaje, los atributos se distribuyen mediante puntos según las reglas de la partida. A medida que el personaje progresa, estos pueden aumentar, reflejando su desarrollo y especialización. 
-
 ## Grupos de atributos
 
 Los atributos se organizan en cuatro grupos, cada uno enfocado en un aspecto distinto del personaje.

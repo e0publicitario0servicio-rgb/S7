@@ -14,5 +14,5 @@ Influye en las siguientes estadísticas del personaje:
 - **[[Resistencia]] Inmune:** Proporciona su modificador a las tiradas de Resistencia Inmune.
 - **[[Capacidad]] de Constitución:** Se utiliza para pagar costes y activar efectos que consumen capacidad de Constitución.
 - **Resistencia a la [[Muerte]]:** Su capacidad permite resistir la muerte cuando la Salud llega a 0.
-- **[[Habilidades]] basadas en Constitución:** Aporta su modificador a las habilidades que dependen de Constitución.
+- **[[Habilidades Principales]] basadas en Constitución:** Aporta su modificador a las habilidades que dependen de Constitución.
 - **[[Tamaño]]**: Determina la altura y peso del personaje, suma el valor al tamaño.

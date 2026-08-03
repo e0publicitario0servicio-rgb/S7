@@ -13,7 +13,6 @@ Las principales defensas de S7 son:
 - [[Natural]]: Defensa universal utilizada cuando una habilidad o efecto indica que no corresponde una defensa específica.
 
 Cada defensa se resuelve mediante sus propias reglas, modificadores y restricciones, descritas en sus respectivas secciones. Existen tipos de defensas en situaciones especiales explicadas a continuación:
-
 ### Explosiones 
 Las explosiones afectan un área, por lo que normalmente **no pueden esquivarse**. Un personaje solo puede evitar una explosión si: 
 - Su **Dash** le permite alcanzar una cobertura adecuada antes del impacto. 
