@@ -14,13 +14,13 @@ export function buildDatabase(files: string[]) {
 
     const text = fs.readFileSync(absolutePath, "utf8")
 
+    let frontmatter: any = {}
+
     const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---/)
 
-    if (!match) {
-      continue
+    if (match) {
+      frontmatter = YAML.parse(match[1]) ?? {}
     }
-
-    const frontmatter = YAML.parse(match[1])
 
     const slug = relativePath
       .replace(/\\/g, "/")
@@ -28,7 +28,7 @@ export function buildDatabase(files: string[]) {
 
     Database.add({
       slug,
-      nombre: frontmatter.title ?? slug,
+      nombre: frontmatter.title ?? slug.split("/").pop()!,
       id: frontmatter.id,
       tipo: frontmatter.tipo,
       simbolo: frontmatter.simbolo,
