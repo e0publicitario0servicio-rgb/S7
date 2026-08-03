@@ -1,74 +1,45 @@
 export interface S7Page {
-  /** Slug de Quartz, por ejemplo: Glosario/Atributo/Fuerza */
   slug: string
-
-  /** Título visible de la página */
   nombre: string
-
-  /** Identificador único del reglamento */
   id?: string
-
-  /** Tipo S7 (atributo, defensa, habilidad, etc.) */
   tipo?: string
-
-  /** Símbolo abreviado */
   simbolo?: string
-
-  /** Orden de aparición */
   orden?: number
 }
 
-export class S7Database {
-  private bySlug = new Map<string, S7Page>()
-  private byId = new Map<string, S7Page>()
-  private byTitle = new Map<string, S7Page>()
+function normalizeSlug(slug: string): string {
+  return slug
+    .replace(/\\/g, "/")
+    .replace(/^\/+|\/+$/g, "")
+    .toLowerCase()
+}
 
-  add(page: S7Page) {
-    this.bySlug.set(page.slug, page)
-
-    if (page.id) {
-      this.byId.set(page.id, page)
-    }
-
-    this.byTitle.set(page.nombre, page)
-  }
-
-  getBySlug(slug: string) {
-    return this.bySlug.get(slug)
-  }
-
-  getById(id: string) {
-    return this.byId.get(id)
-  }
-
-  getByTitle(title: string) {
-    return this.byTitle.get(title)
-  }
-
-  hasSlug(slug: string) {
-    return this.bySlug.has(slug)
-  }
-
-  hasId(id: string) {
-    return this.byId.has(id)
-  }
-
-  hasTitle(title: string) {
-    return this.byTitle.has(title)
-  }
+class S7Database {
+  private pages = new Map<string, S7Page>()
 
   clear() {
-    this.bySlug.clear()
-    this.byId.clear()
-    this.byTitle.clear()
+    this.pages.clear()
   }
 
-  values() {
-    return this.bySlug.values()
+  add(page: S7Page) {
+    page.slug = normalizeSlug(page.slug)
+    this.pages.set(page.slug, page)
+  }
+
+  getBySlug(slug: string): S7Page | undefined {
+    return this.pages.get(normalizeSlug(slug))
+  }
+
+  getByTitle(title: string): S7Page | undefined {
+    for (const page of this.pages.values()) {
+      if (page.nombre === title) return page
+    }
+
+    return undefined
   }
 
   size() {
-    return this.bySlug.size
+    return this.pages.size
   }
 }
 

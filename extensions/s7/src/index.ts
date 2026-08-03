@@ -1,7 +1,8 @@
-import { linksTransformer } from "./transformers/links.ts"
 import { buildDatabase } from "./builder.ts"
+import { htmlLinksTransformer } from "./transformers/htmlLinks.ts"
 
 let databaseBuilt = false
+
 export const manifest = {
   name: "s7",
   displayName: "Sistema S7",
@@ -11,22 +12,49 @@ export const manifest = {
 }
 
 export default function () {
-  console.log("🔥 S7 cargado")
-
   return {
     name: "S7",
 
     markdownPlugins(ctx) {
-      console.log("Archivos:", ctx.allFiles.length)
-
       if (!databaseBuilt) {
         databaseBuilt = true
         buildDatabase(ctx.allFiles)
       }
 
-      return [
-        () => linksTransformer(),
-      ]
+      return []
+    },
+
+    htmlPlugins() {
+      return [() => htmlLinksTransformer()]
+    },
+
+    externalResources() {
+      return {
+        css: [
+          {
+            inline: true,
+            content: `
+              /* Elimina el recuadro de Quartz solo en enlaces decorados por S7 */
+              a.internal {
+                background-color: transparent !important;
+                border-radius: 0;
+                padding: 0;
+                line-height: inherit;
+              }
+
+              /* Atributos */
+              a.internal.s7-atributo {
+                color: #4682B4;
+                font-weight: 600;
+              }
+
+              a.internal.s7-atributo:hover {
+                color: #5C9BCB;
+              }
+            `,
+          },
+        ],
+      }
     },
   }
 }

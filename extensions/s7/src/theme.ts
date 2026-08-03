@@ -1,13 +1,25 @@
-export interface S7TypeDefinition {
-  color: string
-  icon: string
-  cssClass: string
+import type { S7Page } from "./database.ts"
+
+export interface S7Theme {
+  className: string
+  color?: string
+  icon?: string
 }
 
-export const Registry: Record<string, S7TypeDefinition> = {
+const themes: Record<string, S7Theme> = {
   atributo: {
+    className: "s7-atributo",
     color: "steelblue",
     icon: "dumbbell",
-    cssClass: "s7-atributo",
   },
+}
+
+export function getTheme(page: S7Page): S7Theme {
+  if (page.tipo && themes[page.tipo]) {
+    return themes[page.tipo]
+  }
+
+  return {
+    className: "s7-page",
+  }
 }

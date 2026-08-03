@@ -41,8 +41,6 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
-  - source: "./extensions/s7"
-    enabled: true
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
@@ -269,12 +267,15 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: "./extensions/s7"
+    enabled: true
+    order: 100
 layout:
   groups:
     toolbar:
