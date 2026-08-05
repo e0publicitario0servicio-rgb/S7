@@ -9,6 +9,15 @@ export const manifest = {
   description: "Plugin de integración para el sistema S7.",
   version: "0.1.0",
   category: "transformer",
+
+  components: {
+    S7Hero: {
+      name: "S7Hero",
+      displayName: "S7 Hero",
+      description: "Cabecera de las páginas S7",
+      version: "0.1.0",
+    },
+  },
 }
 
 export default function () {

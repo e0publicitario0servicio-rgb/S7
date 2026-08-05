@@ -12,6 +12,9 @@ export async function loadComponentsFromPackage(
   try {
     const componentsPath = getPluginSubpathEntry(pluginName, "./components")
 
+    console.log("[S7] pluginName =", pluginName)
+    console.log("[S7] componentsPath =", componentsPath)
+
     let componentsModule: Record<string, unknown>
     if (componentsPath) {
       componentsModule = await import(toFileUrl(componentsPath))
@@ -29,6 +32,8 @@ export async function loadComponentsFromPackage(
         continue
       }
 
+      console.log("[S7] Registrando:", pluginName, exportName)
+
       // Register under the fully-qualified key (pluginName/exportName)
       componentRegistry.register(
         `${pluginName}/${exportName}`,
@@ -36,6 +41,10 @@ export async function loadComponentsFromPackage(
         pluginName,
         componentManifest as ComponentManifest,
       )
+
+      console.log("[S7] Registrado (completo):", `${pluginName}/${exportName}`)
+      console.log("[S7] Existe:", componentRegistry.get(`${pluginName}/${exportName}`))
+      console.log("[S7] Existe simple:", componentRegistry.get(exportName))
 
       // Also register under just the export name (e.g. "Footer", "NotePropertiesComponent")
       // so buildLayoutForEntries can find it via PascalCase conversion of plugin name
@@ -63,7 +72,9 @@ export async function loadComponentsFromPackage(
         )
       }
     }
-  } catch {
+  } catch (err) {
+    console.error("[S7 ERROR]", err)
+
     if (manifest.components && Object.keys(manifest.components).length > 0) {
       console.warn(`Plugin "${pluginName}" declares components but failed to load them`)
     }

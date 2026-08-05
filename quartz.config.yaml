@@ -276,6 +276,8 @@ plugins:
   - source: "./extensions/s7"
     enabled: true
     order: 100
+  - source: "./extensions/s7-hero"
+    enabled: true
 layout:
   groups:
     toolbar:

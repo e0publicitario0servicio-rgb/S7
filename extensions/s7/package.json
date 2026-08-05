@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "description": "Sistema S7 para Quartz",
   "type": "module",
+
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./components": "./components/index.ts"
   },
+
   "quartz": {
     "category": "transformer"
   }

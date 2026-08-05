@@ -397,7 +397,7 @@ export async function loadQuartzConfig(
           const hasComponents = manifest?.components && Object.keys(manifest.components).length > 0
           const hasFrames = manifest?.frames && Object.keys(manifest.frames).length > 0
           if (hasComponents) {
-            await loadComponentsFromPackage(gitSpec.name, manifest)
+            await loadComponentsFromPackage(entry.source, manifest)
           }
           if (hasFrames) {
             await loadFramesFromPackage(gitSpec.name, manifest)
