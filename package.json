@@ -13,6 +13,7 @@
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
+    "build-s7": "esbuild extensions/s7/src/index.ts --bundle --platform=node --format=cjs --outfile=extensions/s7/dist/index.cjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
