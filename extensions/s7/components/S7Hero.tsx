@@ -5,7 +5,7 @@ import {
 
 const S7Hero: QuartzComponent = ({ fileData }) => {
   const image = fileData.frontmatter?.image
-  const description = fileData.frontmatter?.description
+  const description = fileData.frontmatter?.heroDescription
 
   if (!image) {
     return null

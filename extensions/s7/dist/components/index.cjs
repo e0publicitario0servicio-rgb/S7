@@ -285,7 +285,7 @@ function u2(e2, t2, n2, o2, i2, u3) {
 // extensions/s7/components/S7Hero.tsx
 var S7Hero = ({ fileData }) => {
   const image = fileData.frontmatter?.image;
-  const description = fileData.frontmatter?.description;
+  const description = fileData.frontmatter?.heroDescription;
   if (!image) {
     return null;
   }
