@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "s7",
+  "description": "Reglamento digital del sistema de rol S7",
   "private": true,
   "version": "5.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Jerico",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://s7web.online",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/e0publicitario0servicio-rgb/S7.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -27,12 +27,11 @@
     "node": ">=22"
   },
   "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
-    "blog",
-    "quartz"
+    "s7",
+    "rol",
+    "rpg",
+    "reglamento",
+    "markdown"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
