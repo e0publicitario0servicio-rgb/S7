@@ -1,6 +1,6 @@
 ---
-image: /assets/img/S7.webp
-description: S7RPG o S7 Solamente
+image: /assets/img/s7.webp
+heroDescription: S7RPG o S7 Solamente
 ---
 ## Capítulo 1 · Fundamentos
 
