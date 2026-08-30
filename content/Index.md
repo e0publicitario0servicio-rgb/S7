@@ -1,3 +1,7 @@
+---
+image: /assets/img/S7.webp
+description: S7RPG o S7 Solamente
+---
 ## Capítulo 1 · Fundamentos
 
 Si es tu primera vez en S7, comienza aquí.
