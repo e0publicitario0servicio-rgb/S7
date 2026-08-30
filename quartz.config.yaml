@@ -276,11 +276,11 @@ plugins:
   - source: "./extensions/s7"
     enabled: true
     order: 100
-  - source: "./extensions/s7-hero"
-    enabled: true
     layout:
       position: right
       priority: 20
+  - source: "./extensions/s7-hero"
+    enabled: false
 layout:
   groups:
     toolbar:

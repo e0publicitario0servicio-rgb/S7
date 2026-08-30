@@ -3,10 +3,23 @@ import {
   QuartzComponentConstructor,
 } from "../../quartz/components/types"
 
-const S7Hero: QuartzComponent = () => {
+const S7Hero: QuartzComponent = ({ fileData }) => {
+  const image = fileData.frontmatter?.image
+  const description = fileData.frontmatter?.description
+
+  if (!image) {
+    return null
+  }
+
   return (
     <div class="s7-hero">
-      🚀 S7Hero funcionando
+      <img src={image} alt={description ?? ""} />
+
+      {description && (
+        <div class="s7-hero-description">
+          {description}
+        </div>
+      )}
     </div>
   )
 }

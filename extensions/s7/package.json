@@ -6,10 +6,17 @@
 
   "exports": {
     ".": "./dist/index.js",
-    "./components": "./components/index.ts"
+    "./components": "./dist/components/index.js"
   },
 
   "quartz": {
-    "category": "transformer"
+    "category": "transformer",
+    "components": {
+      "S7Hero": {
+        "displayName": "S7 Hero",
+        "defaultPosition": "right",
+        "defaultPriority": 20
+      }
+    }
   }
 }

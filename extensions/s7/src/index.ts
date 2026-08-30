@@ -60,6 +60,22 @@ export default function () {
               a.internal.s7-atributo:hover {
                 color: #5C9BCB;
               }
+
+              .s7-hero {
+                margin-bottom: 1rem;
+              }
+
+              .s7-hero img {
+                display: block;
+                width: 100%;
+                border-radius: 0.5rem;
+              }
+
+              .s7-hero-description {
+                margin-top: 0.5rem;
+                font-size: 0.9rem;
+                color: var(--gray);
+              }
             `,
           },
         ],
