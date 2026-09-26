@@ -42,7 +42,7 @@ Una vez tengas un personaje, aprende más de cómo funciona el sistema.
 3. [[Tiradas enfrentadas]]
 4. [[Combate]]
 5. [[Acciones]]
-6. [[Defensas]]
+6. [[Defensa]]
 7. [[Estados alterados]]
 
 ---
