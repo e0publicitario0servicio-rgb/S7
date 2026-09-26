@@ -3,8 +3,8 @@
 - **Acción(-):** Requiere uno o más tipos de acción específicos para utilizarse. Si no se indica el tipo, se considera **Acción(Activa)**. ^accion
 	- **Activa:** Requiere una acción activa para ejecutarse. ^accion-activa
     - **Pasiva:** Requiere una acción pasiva y puede realizarse mientras se hacen otras acciones activas. ^accion-pasiva
-    - **Reacción:** Solo puede utilizarse cuando ocurre el desencadenante indicado por la propia capacidad o por las circunstancias. ^reaccion
-    - **Libre:** No cuesta ningún tipo de acción y puede activarse libremente dentro del turno del usuario. ^libre
+    - **Reacción:** Permite utilizar el efecto cuando ocurre el desencadenante indicado. No cuenta como acción activa ni pasiva y no tiene un límite general de usos por ronda. ^reaccion
+    - **Libre:** Puede realizarse durante el turno del usuario o mientras reacciona ante algo, sin contar entre sus acciones activas o pasivas. ^libre
 
 - **Intrusiva:** Puede activarse fuera del turno del usuario, antes de que otro personaje declare su siguiente acción. ^intrusiva
 
@@ -16,7 +16,7 @@
 
 - **Exceso:** Al pagar adicionalmente el coste indicado entre paréntesis, se aplican los beneficios señalados entre corchetes en la descripción. ^exceso
 
-- **Cada(#):** Limita la frecuencia de uso. Cuando permite un uso por periodo, se escribe únicamente el periodo: **Cada(Turno)**, **Cada(Ronda)**, **Cada(Escena)** o **Cada(Día)**. El símbolo `/` indica alternativas y no se utiliza para separar la cantidad del periodo. ^cada
+- **Cada(#):** Limita la frecuencia de uso. Cuando permite un uso por periodo, se escribe únicamente el periodo: **Cada(Turno)**, **Cada(Ronda)**, **Cada(Escena)** o **Cada(Día)**.  ^cada
 
 - **Origen(-):** Indica desde dónde aparece el efecto. Si no se cuenta con el origen requerido, no puede utilizarse. ^origen
 

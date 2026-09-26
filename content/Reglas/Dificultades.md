@@ -1,20 +1,21 @@
 Las **Dificultades** representan el valor objetivo que una tirada debe igualar o superar para tener éxito.
 
-| Nivel | Dificultad | Valor | Ejemplo |
-|:----:|-------------|:-----:|----------|
-| 0 | Rutinario | 4 | Cocer una pieza de carne. |
-| 1 | Tarea sencilla | 8 | Dirigir a un caballo en movimiento. |
-| 2 | Tarea normal | 12 | Ocultar un objeto para que no sea visto fácilmente. |
-| 3 | Complicado | 16 | Ahuyentar a un animal salvaje. |
-| 4 | Difícil | 20 | Subir una pared sin el equipo necesario. |
-| 5 | Arduo | 24 | Descifrar un mensaje encriptado. |
-| 6 | Intimidante | 28 | Vencer a un oso. |
-| 7 | Espectacular | 32 | Derribar una estructura de una embestida. |
-| 8 | Heroico | 36 | Acabar con un ejército solo. |
-| 9 | Legendario | 40 | Mover una montaña. |
-| 10 | Imposible | 44 | Desafiar a una deidad y vivir para contarlo. |
-| 11 | Divino | 48 | Destruir una estrella. |
-| 12 | Fundamental | 52 | Crear una nueva dimensión. |
+| Nivel | Dificultad     | Valor | Ejemplo                                             |
+| :---: | -------------- | :---: | --------------------------------------------------- |
+|   0   | Rutinario      |   4   | Cocer una pieza de carne.                           |
+|   1   | Tarea sencilla |   8   | Dirigir a un caballo en movimiento.                 |
+|   2   | Tarea normal   |  12   | Ocultar un objeto para que no sea visto fácilmente. |
+|   3   | Complicado     |  16   | Ahuyentar a un animal salvaje.                      |
+|   4   | Difícil        |  20   | Subir una pared sin el equipo necesario.            |
+|   5   | Arduo          |  24   | Descifrar un mensaje encriptado.                    |
+|   6   | Intimidante    |  28   | Vencer a un oso.                                    |
+|   7   | Espectacular   |  32   | Derribar una estructura de una embestida.           |
+|   8   | Heroico        |  36   | Acabar con un ejército solo.                        |
+|   9   | Legendario     |  40   | Mover una montaña.                                  |
+|  10   | Imposible      |  44   | Desafiar a una deidad y vivir para contarlo.        |
+|  11   | Divino         |  48   | Destruir una estrella.                              |
+|  12   | Fundamental    |  52   | Crear una nueva dimensión.                          |
+
 Dentro de la tabla existen diversos limites a los que seres no pueden llegar, a esto se les llama [[Límite natural]].
 # Cálculos de Dificultades
 Cuando una regla indique una dificultad concreta, se utiliza ese valor directamente. En caso contrario, la dificultad puede calcularse a partir del nivel del objetivo o del efecto.
