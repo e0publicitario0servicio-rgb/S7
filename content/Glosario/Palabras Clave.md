@@ -1,124 +1,121 @@
-#### **Activación**
+## Activación
 
-- **Acción (-):** Requiere uno o más tipos de acción específica para utilizarse, si no se especifica el tipo de acción, siempre será Si no se indica un tipo, se considera Acción(Activa):
-    - **Activa:** Requiere una acción activa para ejecutarse.
-    - **Pasiva:** Requiere una acción pasiva, puede hacerse mientras se hacen otras acciones activas.
-    - **Reacción:** Solo puede utilizarse cuando ocurre el desencadenante indicado por la propia capacidad o por las circunstancias.
-    - **Libre:** No cuesta ningún tipo de acción y se puede activar libremente dentro de su turno.
+- **Acción(-):** Requiere uno o más tipos de acción específicos para utilizarse. Si no se indica el tipo, se considera **Acción(Activa)**. ^accion
+	- **Activa:** Requiere una acción activa para ejecutarse. ^accion-activa
+    - **Pasiva:** Requiere una acción pasiva y puede realizarse mientras se hacen otras acciones activas. ^accion-pasiva
+    - **Reacción:** Solo puede utilizarse cuando ocurre el desencadenante indicado por la propia capacidad o por las circunstancias. ^reaccion
+    - **Libre:** No cuesta ningún tipo de acción y puede activarse libremente dentro del turno del usuario. ^libre
 
-- **Intrusiva:** Puede activarse fuera del turno del usuario antes de que otro personaje declare su siguiente acción.
+- **Intrusiva:** Puede activarse fuera del turno del usuario, antes de que otro personaje declare su siguiente acción. ^intrusiva
 
-- **Movimiento(#):** Consume la cantidad indicada del movimiento disponible del usuario.
+- **Movimiento(#):** Consume la cantidad indicada del movimiento disponible del usuario. ^movimiento
 
-- **Mantenida(#):** El efecto puede sostenerse en el tiempo usando acciones pasivas cada turno. El número indica cuántas acciones se requieren.
+- **Mantenida(#):** El efecto puede sostenerse en el tiempo usando acciones pasivas cada turno. El número indica cuántas acciones se requieren. ^mantenida
 
-- **Canalizada(#):** El efecto continúa activo mientras se pague su coste por turno (como maná o energía), usualmente el mismo coste que al activarlo.
+- **Canalizada(#):** El efecto continúa activo mientras se pague su coste por turno, como Maná o Energía; usualmente, el mismo coste que al activarlo. ^canalizada
 
-- **Exceso:** Al pagar adicionalmente el coste indicado entre paréntesis, se aplican los beneficios señalados entre corchetes en la descripción.
+- **Exceso:** Al pagar adicionalmente el coste indicado entre paréntesis, se aplican los beneficios señalados entre corchetes en la descripción. ^exceso
 
-- **Cada(#):** Limita la frecuencia de uso. Entre paréntesis se indica la cantidad y el periodo correspondiente (Cada(1/Escena), Cada(3/Día), Cada(1), etc.).
+- **Cada(#):** Limita la frecuencia de uso. Cuando permite un uso por periodo, se escribe únicamente el periodo: **Cada(Turno)**, **Cada(Ronda)**, **Cada(Escena)** o **Cada(Día)**. El símbolo `/` indica alternativas y no se utiliza para separar la cantidad del periodo. ^cada
 
-- **Origen(-):** Indica desde dónde aparece el efecto, en caso de no contar con el origen, no se podrá utilizar.
+- **Origen(-):** Indica desde dónde aparece el efecto. Si no se cuenta con el origen requerido, no puede utilizarse. ^origen
 
-- **Concentración (#):** Si el usuario sufre daño o distracciones, debe realizar una tirada (Dificultad #) o el efecto se interrumpe.
+- **Concentración(#):** Si el usuario sufre daño o distracciones, debe realizar una tirada contra la dificultad indicada o el efecto se interrumpe. ^concentracion
 
+## Resolución
 
-#### **Resolución**
+- **Determinada(#):** No requiere realizar una tirada para resolver su efecto. Si posee un valor entre paréntesis, se considera dicho valor. ^determinada
 
-- **Determinada (#):** No requiere realizar una tirada para resolver su efecto. Si posee un valor entre paréntesis, se considera dicho valor.
+- **Precisión(#):** Reduce penalizadores aplicados por condiciones perceptivas, como oscuridad, niebla, invisibilidad, camuflaje u otros efectos similares. ^precision
 
-- **Precisión(#):** Reduce penalizadores aplicados por condiciones perceptivas (oscuridad, niebla, invisibilidad, camuflaje u otros efectos similares).
+- **Sencillo:** Reduce el rango de pifia en 1 punto, hasta un mínimo de 0. ^sencillo
 
-- **Sencillo:** Reduce el rango de pifia en 1 punto (mínimo 0).
+- **Complejo:** Incrementa en 1 el rango de pifia. Si ocurre una pifia, su grado también aumenta en 1. ^complejo
 
-- **Complejo:** Incrementa en 1 el rango de pifia. Si ocurre una pifia, su grado también aumenta en 1.
+- **Modificador(±#):** Suma o resta el valor indicado a la tirada. ^modificador
 
-- **Modificador (±#):** Suma o resta el valor indicado a la tirada.
+- **Reducción(#):** Disminuye la dificultad de una tirada en el valor indicado. ^reduccion
 
-- **Reducción(#):** Disminuye la dificultad de una tirada en el valor indicado.
+- **Incremento(#):** Aumenta la dificultad de una tirada en el valor indicado. ^incremento
 
-- **Incremento(#):** Aumenta la dificultad de una tirada en el valor indicado.
+- **Re-roll(#):** Permite repetir una o más tiradas según el número indicado. Existen tres tipos: ^re-roll
+    - **Positivo:** Se debe realizar la tirada adicional y elegir el mejor resultado. Se representa con el signo `+`. ^re-roll-positivo
+    - **Negativo:** Se debe realizar la tirada adicional y elegir el peor resultado. Se representa con el signo `-`. ^re-roll-negativo
+    - **Neutro:** El nuevo resultado reemplaza al anterior. Volver a tirar es opcional. ^re-roll-neutro
 
-- **Re-roll(#):** Permite repetir una o más tiradas dependiendo el número. Puede ser:
-	- Positivo: Se debe realizar la tirada adicional, elige el mejor resultado, se representa con un "+".
-	- Negativo: Se debe realizar la tirada adicional, elige el peor resultado, se representa con un "-".
-	- Neutro: El nuevo resultado reemplaza al anterior, volver a tirar es opcional.
+## Alcance y objetivos
 
+- **Área(#):** El efecto afecta a todo objetivo dentro del radio o tamaño indicado. La forma del área es circular. ^area
 
-#### **Alcance y objetivos**
+- **Cono(#/#):** Afecta un cono. El primer valor indica la distancia que le toma ensancharse 1 y el segundo, su largo máximo. ^cono
 
-- **Área (#):** El efecto afecta a todo objetivo dentro del radio o tamaño indicado. La forma del área es circular.
+- **Línea(#):** Afecta una línea con la longitud indicada. ^linea
 
-- **Cono(#/#):** Afecta un cono con la longitud indicada, el primer valor siendo la distancia que le toma ancharse 1 y el segundo valor el largo máximo.
+- **Muro(#):** Crea una barrera lineal de la longitud indicada, delante del personaje, que ve el muro a lo ancho. ^muro
 
-- **Línea(#):** Afecta una línea con la longitud indicada.
+- **Anillo(#):** Afecta únicamente una circunferencia alrededor del punto elegido. ^anillo
 
-- **Muro(#):** Crea una barrera lineal de la longitud indicada, delante del personaje viendo el muro a lo ancho.
+- **Arco(#):** Salta la distancia indicada para llegar al punto elegido. ^arco
 
-- **Anillo(#):** Afecta únicamente una circunferencia alrededor del punto elegido.
+- **Aura(#):** El área se mueve junto al usuario. Su forma es circular. ^aura
 
-- **Arco(#):** Salta una distancia para llegar al punto elegido.
+- **Alcance(#):** Distancia máxima desde la que puede utilizarse la capacidad. Si no se especifica un valor, se utiliza el alcance del personaje. ^alcance
 
-- **Aura(#):** El área se mueve junto al usuario. La forma del área es circular.
+- **Objetivo(#):** Número máximo de objetivos que puede afectar simultáneamente. ^objetivo
 
-- **Alcance(#):** Distancia máxima desde la que puede utilizarse la capacidad. Si no está especificado el valor es el alcance del personaje.
+- **Atravesamiento(#):** El efecto continúa atravesando la cantidad indicada de objetivos sin detenerse. ^atravesamiento
 
-- **Objetivo(#):** Número máximo de objetivos que puede afectar simultáneamente.
+- **Guiado(#):** El efecto posee los metros de movimiento indicados por turno y el usuario puede modificar su trayectoria mientras permanezca activo. ^guiado
 
-- **Atravesamiento (#):** El efecto continúa atravesando un # de objetivos sin detenerse.
+- **Selectivo:** El usuario puede excluir objetivos dentro del área. ^selectivo
 
-- **Guiado (#):** El efecto posee # metros de movimiento por turno y el usuario puede modificar su trayectoria mientras permanezca activo.
+- **Criterio(-):** Limita el tipo de objetivos que pueden ser afectados, como criaturas, piedras o humanos. ^criterio
 
-- **Selectivo:** El usuario puede excluir objetivos dentro del área.
+- **Anclado(#):** El efecto permanece ligado al objetivo o punto elegido. Si supera la distancia indicada, finaliza inmediatamente. ^anclado
 
-- **Criterio (-):** Limita que tipo de objetivos puede ser, como Criaturas, Piedras, Humanos, etc.
+- **Condición(-):** La capacidad solo puede activarse si el usuario cumple la condición indicada entre paréntesis. ^condicion
 
-- **Anclado (#):** El efecto permanece ligado al objetivo o punto elegido. Si supera la distancia indicada, finaliza inmediatamente.
+## Persistencia
 
-- **Condición(-):** La capacidad solo puede activarse si el usuario cumple la condición indicada entre paréntesis.
+- **Duración(#):** El efecto permanece activo durante una cantidad fija de turnos o lapsos. ^duracion
 
+- **Remoto:** Una vez creado, el efecto continúa funcionando aunque el usuario salga de su alcance, salvo que la descripción indique lo contrario. ^remoto
 
-#### **Persistencia**
+- **Creciente(#):** Cada repetición aumenta en la cantidad indicada el valor señalado por la propia capacidad, utilizando la misma tirada inicial. ^creciente
 
-- **Duración(#):** El efecto permanece activo durante una cantidad fija de turnos o lapsos.
+- **Decreciente(#):** Cada repetición reduce en la cantidad indicada el valor señalado por la propia capacidad, utilizando la misma tirada inicial. ^decreciente
 
-- **Remoto:** Una vez creado, el efecto continúa funcionando, aunque el usuario salga de su alcance, salvo que la descripción indique lo contrario.
+- **Independiente:** No requiere que el usuario lo mantenga; permanece activo por sí solo una vez que ha sido activado manual o pasivamente. ^independiente
 
-- **Creciente (#):** Cada repetición aumenta en # el valor indicado por la propia capacidad utilizando la misma tirada inicial.
+- **Detonable:** El usuario decide cuándo activar el efecto después de crearlo. ^detonable
 
-- **Decreciente (#):** Cada repetición reduce en # el valor indicado utilizando la misma tirada inicial.
+- **Única:** Solo puede haber una instancia activa a la vez. Activar otra desactiva la anterior. ^unica
 
-- **Independiente:** No requiere que el usuario lo mantenga; permanece activo por sí solo una vez que ha sido activado manual o pasivamente.
+- **Acumulable(#):** Los efectos se suman con usos repetidos, hasta el valor máximo indicado. ^acumulable
 
-- **Detonable:** El usuario decide cuándo activar el efecto después de crearlo.
+- **Expansivo(#):** El área aumenta en la cantidad indicada cada turno. ^expansivo
 
-- **Única:** Solo puede haber una instancia activa a la vez. Activar otra desactiva la anterior.
-
-- **Acumulable(#):** Los efectos se suman con usos repetidos, hasta el valor máximo indicado.
-
-- **Expansivo(#):** El área aumenta en la cantidad indicada cada turno.
-
-- **Contractivo(#):** El área disminuye cada turno.
+- **Contractivo(#):** El área disminuye en la cantidad indicada cada turno. ^contractivo
 
 
-#### Propiedades Especiales
+## Propiedades especiales
 
-- **Infatigable:** No consume recursos (maná, energía, estrés) si se usa fuera de combate.
+- **Infatigable:** No consume recursos, como Maná, Energía o Estrés, si se usa fuera de combate. ^infatigable
 
-- **Drenador (-):** Convierte parte del valor perdido por el objetivo en un beneficio equivalente para el usuario. Entre paréntesis puede especificarse el medidor afectado (Vida, Maná, Energía, Estrés...).
+- **Drenador(-):** Convierte parte del valor perdido por el objetivo en un beneficio equivalente para el usuario. Entre paréntesis puede especificarse el medidor afectado, como Salud, Maná, Energía o Estrés. ^drenador
 
-- **Invisible:** No puede ser visto y aplica los penalizadores correspondientes establecidos por las reglas de Ceguera.
+- **Invisible:** No puede ser visto y aplica los penalizadores correspondientes establecidos por las reglas de [[Ceguera]]. ^invisible
 
-- **Protección:** Funciona como puntos de salud temporales que se pierden primero y desaparecen al final de la escena. Esa salud temporal no puede curarse ni recuperarse salvo que se indique lo contrario.
+- **Protección:** Funciona como puntos de Salud temporales que se pierden primero y desaparecen al final de la escena. Esa Salud temporal no puede curarse ni recuperarse salvo que se indique lo contrario. ^proteccion
 
-- **Mejora:** Potencia un ataque sin poder combinarse con otras mejoras en el mismo ataque.
+- **Mejora:** Potencia un ataque sin poder combinarse con otras mejoras en el mismo ataque. ^mejora
 
-- **Combo(#):** Si se usa tras la acción indicada, obtiene un beneficio adicional.
+- **Combo(#):** Si se usa tras la acción indicada, obtiene un beneficio adicional. ^combo
 
-- **Defensa (-):** Es compatible con uno o más tipos de defensa. Pero puede especificarse con Bloqueo, Desvío, Esquiva, Sobrenatural.
+- **Defensa(-):** Indica la compatibilidad con uno o más tipos de defensa. Puede especificarse mediante Bloqueo, Desvío, Esquiva o Sobrenatural. ^defensa
 
-- **Hereda:** El objetivo del poder también recibe beneficios de pasivas o efectos de la misma ley u otros compatibles.
+- **Hereda:** El objetivo del poder también recibe beneficios de pasivas o efectos de la misma ley u otros compatibles. ^hereda
 
-- **Ignora (-):** Ignora la Protección o Armadura según indique la capacidad.
+- **Ignora(-):** Ignora la Protección o Armadura según indique la capacidad. ^ignora
 
-- **Desplazamiento(#):** Empuja, atrae o mueve automáticamente, si atrae el símbolo es "-" si empuja es "+", si es libre no lleva símbolo. No consume Movimiento.
+- **Desplazamiento(#):** Empuja, atrae o mueve automáticamente. Si atrae, utiliza el signo `-`; si empuja, el signo `+`; si el desplazamiento es libre, no lleva signo. No consume Movimiento. ^desplazamiento
