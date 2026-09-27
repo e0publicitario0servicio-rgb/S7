@@ -1,16 +1,24 @@
-**Atributo:** Fuerza
+El **Bloqueo** permite interponer el cuerpo, un arma o un escudo para detener un ataque.
 
-El **Bloqueo** utiliza el arma, escudo o cuerpo para detener un ataque. 
-- Obtiene **+3** contra proyectiles. 
-- No puede bloquear ataques provenientes de la espalda. 
-- Si la **Fuerza** del ataque supera la del bloqueo por **5 o más**, el bloqueador recibe **la mitad del daño**. 
-- Si la Fuerza del ataque es **al menos el doble**, recibe el **daño final -5**. 
+Obtiene **+3 a la tirada contra proyectiles** y no permite bloquear ataques que llegan por la espalda.
 
-Bloquear un ataque dirigido a otro personaje consume una **Acción Pasiva**. 
-### Tipos de bloqueo 
-#### Con el cuerpo 
-Bloquear con el cuerpo evita el daño únicamente contra ataques no letales (como puños u otros impactos similares). Si el ataque utiliza un arma letal, el daño se recibe normalmente. 
-#### Con un arma 
-Cada vez que un arma bloquea un ataque debe realizar una **Prueba de Quiebre**. 
-#### Con un escudo 
-Además de las reglas del Bloqueo, se aplican todos los beneficios otorgados por el escudo utilizado.
+## Con qué se bloquea
+
+- **Manos o cuerpo:** Bloquear armas letales hace que el personaje reciba daño. Frente a golpes de puños o similares, un bloqueo exitoso evita el daño.
+- **Arma:** Cada bloqueo con un arma requiere que esta realice una [[Quiebre|Prueba de Quiebre]].
+- **Escudo:** Se aplican los beneficios indicados por el escudo.
+
+## Diferencia de Fuerza
+
+Compara el atributo de **Fuerza del atacante** con el de **Fuerza del defensor**. Incluso si el bloqueo tiene éxito, pueden aplicarse estas consecuencias:
+
+|Condición|Daño recibido|
+|---|---|
+|La Fuerza del atacante supera a la del defensor en **5 o más**.|**La mitad del daño**.|
+|La Fuerza del atacante es **el doble o más** que la del defensor.|**Daño −5**.|
+
+Si se cumplen ambas condiciones, calcula los dos resultados y aplica únicamente **el mayor daño recibido**. No se suman.
+
+## Defender a otro personaje
+
+Bloquear un ataque dirigido a otro personaje cuenta como una **acción pasiva**.

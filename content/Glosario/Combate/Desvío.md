@@ -1,20 +1,25 @@
-**Atributo:** Destreza
-**Coste de de Capacidad:** 1 Destreza o 1 Agilidad. 
+El **Desvío** permite interceptar un ataque utilizando lo que el personaje tenga a su disposición.
 
-El **Desvío** consiste en interceptar un ataque utilizando un arma u otro objeto que el personaje tenga en su poder. Si el resultado del Desvío supera al ataque por **3 o más**, el personaje puede realizar un **contraataque** inmediatamente sin gastar acciones. 
+**Coste: 1 Des/1 Agi.** Para realizarlo, paga 1 punto de [[Capacidad]] de Destreza o de Agilidad.
 
-Al desviar con éxito: 
-- El daño **elemental** recibido se reduce a la mitad. 
-- El daño **contundente** recibido se reduce a una cuarta parte. 
+## Resultado
 
-### Modificadores según el tipo de ataque
+Si desvía con éxito:
 
-| Ataque | Modificador |
-|---------|------------:| 
-| Proyectiles (flechas, virotes, algunos poderes) | -6 |
-| Alta velocidad (balas, láseres, similares) | -10 |
-| Objetos lentos (rocas, armas arrojadizas) | Sin modificador |
+- Recibe **la mitad del daño de efectos elementales**.
+- Recibe **un cuarto del daño contundente**.
+- Si supera un ataque cuerpo a cuerpo por **3 o más**, puede contraatacar sin contabilizar una acción activa ni pasiva.
 
-**Proyectiles:** Algunos poderes producen sus efectos únicamente con impactar. En esos casos, aunque el Desvío tenga éxito, el ataque se considera que impactó para resolver dicho efecto. 
+Desviar proyectiles o ataques a distancia no permite obtener este contraataque.
 
-Solo pueden desviarse proyectiles utilizando **armas Medianas o Grandes**. (Caso contrario la dificultad de la tirada es +4)
+## Proyectiles
+
+Para desviar proyectiles se requiere un arma de **envergadura Mediana o superior**.
+
+|Tipo|Ejemplos|Penalizador al Desvío|
+|---|---|---|
+|Proyectiles|Flechas o poderes proyectados.|**−6**|
+|Alta velocidad|Balas o láseres.|**−10**|
+|Lentos|Rocas o armas arrojadizas.|**Sin penalizador por esta condición**|
+
+Algunos poderes producen sus efectos con solo impactar. Desviarlos con éxito sigue contando como un impacto a efectos de esas reglas.
