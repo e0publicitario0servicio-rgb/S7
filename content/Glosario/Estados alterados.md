@@ -15,6 +15,11 @@ Si la regla establece una dificultad fija, utiliza ese valor. Cuando no la indiq
 Los efectos Hard tienen una dificultad menor para facilitar que el personaje resista consecuencias especialmente graves.
 
 La tirada utiliza la [[Resistencias|resistencia]] indicada por el estado o por la regla que lo provoca.
+## Acumulación
+
+Cuando un personaje recibe un estado que ya tiene, **suma el nuevo valor al existente**.
+
+Por ejemplo, si tiene Dolor(2) y recibe Dolor(3), pasa a tener Dolor(5).
 
 - **Alergia — Permanente:** Aplica un penalizador de **−4 a toda acción por exposición directa** al alérgeno y de **−2 por exposición indirecta**. El contacto que constituye cada exposición depende del alérgeno. Los penalizadores terminan cuando cesa la exposición, pero la alergia permanece. **Gravedad:** Hard con exposición directa; Easy con exposición indirecta. ^alergia
 

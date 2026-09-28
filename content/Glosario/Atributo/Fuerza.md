@@ -1,7 +1,7 @@
 ---
 title: Fuerza
 tipo: atributo
-image: assets/atributos/atributo.svg
+image: assets/atributo/atributo.svg
 summary: |
   La Fuerza representa la potencia física del personaje y determina su capacidad para realizar esfuerzos musculares.
 ---

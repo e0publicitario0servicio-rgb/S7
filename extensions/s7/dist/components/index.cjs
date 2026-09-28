@@ -24,6 +24,9 @@ __export(index_exports, {
 });
 module.exports = __toCommonJS(index_exports);
 
+// node_modules/github-slugger/index.js
+var own = Object.hasOwnProperty;
+
 // node_modules/preact/dist/preact.mjs
 var n;
 var l;
@@ -151,13 +154,13 @@ function V(n2) {
   };
 }
 function q(n2, u3, t2, i2, r2, o2, e2, f3, c2, a2) {
-  var s2, h2, p2, v2, y2, d2, _2, k, x2, M, $2, I2, P2, A2, H2, T2, j2 = u3.type;
+  var s2, h2, p2, v2, y2, d2, _2, k2, x2, M, $2, I2, P2, A2, H2, T2, j2 = u3.type;
   if (void 0 !== u3.constructor) return null;
   128 & t2.__u && (c2 = !!(32 & t2.__u), o2 = [f3 = u3.__e = t2.__e]), (s2 = l.__b) && s2(u3);
   n: if ("function" == typeof j2) {
     h2 = e2.length;
     try {
-      if (x2 = u3.props, M = j2.prototype && j2.prototype.render, $2 = (s2 = j2.contextType) && i2[s2.__c], I2 = s2 ? $2 ? $2.props.value : s2.__ : i2, t2.__c ? k = (p2 = u3.__c = t2.__c).__ = p2.__E : (M ? u3.__c = p2 = new j2(x2, I2) : (u3.__c = p2 = new C(x2, I2), p2.constructor = j2, p2.render = Q), $2 && $2.sub(p2), p2.state || (p2.state = {}), p2.__n = i2, v2 = p2.__d = true, p2.__h = [], p2._sb = []), M && null == p2.__s && (p2.__s = p2.state), M && null != j2.getDerivedStateFromProps && (p2.__s == p2.state && (p2.__s = m({}, p2.__s)), m(p2.__s, j2.getDerivedStateFromProps(x2, p2.__s))), y2 = p2.props, d2 = p2.state, p2.__v = u3, v2) M && null == j2.getDerivedStateFromProps && null != p2.componentWillMount && p2.componentWillMount(), M && null != p2.componentDidMount && p2.__h.push(p2.componentDidMount);
+      if (x2 = u3.props, M = j2.prototype && j2.prototype.render, $2 = (s2 = j2.contextType) && i2[s2.__c], I2 = s2 ? $2 ? $2.props.value : s2.__ : i2, t2.__c ? k2 = (p2 = u3.__c = t2.__c).__ = p2.__E : (M ? u3.__c = p2 = new j2(x2, I2) : (u3.__c = p2 = new C(x2, I2), p2.constructor = j2, p2.render = Q), $2 && $2.sub(p2), p2.state || (p2.state = {}), p2.__n = i2, v2 = p2.__d = true, p2.__h = [], p2._sb = []), M && null == p2.__s && (p2.__s = p2.state), M && null != j2.getDerivedStateFromProps && (p2.__s == p2.state && (p2.__s = m({}, p2.__s)), m(p2.__s, j2.getDerivedStateFromProps(x2, p2.__s))), y2 = p2.props, d2 = p2.state, p2.__v = u3, v2) M && null == j2.getDerivedStateFromProps && null != p2.componentWillMount && p2.componentWillMount(), M && null != p2.componentDidMount && p2.__h.push(p2.componentDidMount);
       else {
         if (M && null == j2.getDerivedStateFromProps && x2 !== y2 && null != p2.componentWillReceiveProps && p2.componentWillReceiveProps(x2, I2), u3.__v == t2.__v || !p2.__e && null != p2.shouldComponentUpdate && false === p2.shouldComponentUpdate(x2, p2.__s, I2)) {
           u3.__v != t2.__v && (p2.props = x2, p2.state = p2.__s, p2.__d = false), u3.__e = t2.__e, u3.__k = t2.__k, u3.__k.some(function(n3) {
@@ -173,7 +176,7 @@ function q(n2, u3, t2, i2, r2, o2, e2, f3, c2, a2) {
       else do {
         p2.__d = false, P2 && P2(u3), s2 = p2.render(p2.props, p2.state, p2.context), p2.state = p2.__s;
       } while (p2.__d && ++A2 < 25);
-      p2.state = p2.__s, null != p2.getChildContext && (i2 = m(m({}, i2), p2.getChildContext())), M && !v2 && null != p2.getSnapshotBeforeUpdate && (_2 = p2.getSnapshotBeforeUpdate(y2, d2)), H2 = null != s2 && s2.type === S && null == s2.key ? E(s2.props.children) : s2, f3 = L(n2, g(H2) ? H2 : [H2], u3, t2, i2, r2, o2, e2, f3, c2, a2), p2.base = u3.__e, u3.__u &= -161, p2.__h.length && e2.push(p2), k && (p2.__E = p2.__ = null);
+      p2.state = p2.__s, null != p2.getChildContext && (i2 = m(m({}, i2), p2.getChildContext())), M && !v2 && null != p2.getSnapshotBeforeUpdate && (_2 = p2.getSnapshotBeforeUpdate(y2, d2)), H2 = null != s2 && s2.type === S && null == s2.key ? E(s2.props.children) : s2, f3 = L(n2, g(H2) ? H2 : [H2], u3, t2, i2, r2, o2, e2, f3, c2, a2), p2.base = u3.__e, u3.__u &= -161, p2.__h.length && e2.push(p2), k2 && (p2.__E = p2.__ = null);
     } catch (n3) {
       if (e2.length = h2, u3.__v = null, c2 || null != o2) {
         if (n3.then) {
@@ -205,7 +208,7 @@ function E(n2) {
   return "object" != typeof n2 || null == n2 || n2.__b > 0 ? n2 : g(n2) ? n2.map(E) : void 0 !== n2.constructor ? null : m({}, n2);
 }
 function G(u3, t2, i2, r2, o2, e2, f3, c2, a2) {
-  var s2, h2, p2, v2, y2, w2, _2, m2 = i2.props || d, k = t2.props, x2 = t2.type;
+  var s2, h2, p2, v2, y2, w2, _2, m2 = i2.props || d, k2 = t2.props, x2 = t2.type;
   if ("svg" == x2 ? o2 = "http://www.w3.org/2000/svg" : "math" == x2 ? o2 = "http://www.w3.org/1998/Math/MathML" : o2 || (o2 = "http://www.w3.org/1999/xhtml"), null != e2) {
     for (s2 = 0; s2 < e2.length; s2++) if ((y2 = e2[s2]) && "setAttribute" in y2 == !!x2 && (x2 ? y2.localName == x2 : 3 == y2.nodeType)) {
       u3 = y2, e2[s2] = null;
@@ -213,14 +216,14 @@ function G(u3, t2, i2, r2, o2, e2, f3, c2, a2) {
     }
   }
   if (null == u3) {
-    if (null == x2) return document.createTextNode(k);
-    u3 = document.createElementNS(o2, x2, k.is && k), c2 && (l.__m && l.__m(t2, e2), c2 = false), e2 = null;
+    if (null == x2) return document.createTextNode(k2);
+    u3 = document.createElementNS(o2, x2, k2.is && k2), c2 && (l.__m && l.__m(t2, e2), c2 = false), e2 = null;
   }
-  if (null == x2) m2 === k || c2 && u3.data == k || (u3.data = k);
+  if (null == x2) m2 === k2 || c2 && u3.data == k2 || (u3.data = k2);
   else {
-    if (e2 = "textarea" == x2 && null != k.defaultValue ? null : e2 && n.call(u3.childNodes), !c2 && null != e2) for (m2 = {}, s2 = 0; s2 < u3.attributes.length; s2++) m2[(y2 = u3.attributes[s2]).name] = y2.value;
-    for (s2 in m2) y2 = m2[s2], "dangerouslySetInnerHTML" == s2 ? p2 = y2 : "children" == s2 || s2 in k || "value" == s2 && "defaultValue" in k || "checked" == s2 && "defaultChecked" in k || N(u3, s2, null, y2, o2);
-    for (s2 in k) y2 = k[s2], "children" == s2 ? v2 = y2 : "dangerouslySetInnerHTML" == s2 ? h2 = y2 : "value" == s2 ? w2 = y2 : "checked" == s2 ? _2 = y2 : c2 && "function" != typeof y2 || m2[s2] === y2 || N(u3, s2, y2, m2[s2], o2);
+    if (e2 = "textarea" == x2 && null != k2.defaultValue ? null : e2 && n.call(u3.childNodes), !c2 && null != e2) for (m2 = {}, s2 = 0; s2 < u3.attributes.length; s2++) m2[(y2 = u3.attributes[s2]).name] = y2.value;
+    for (s2 in m2) y2 = m2[s2], "dangerouslySetInnerHTML" == s2 ? p2 = y2 : "children" == s2 || s2 in k2 || "value" == s2 && "defaultValue" in k2 || "checked" == s2 && "defaultChecked" in k2 || N(u3, s2, null, y2, o2);
+    for (s2 in k2) y2 = k2[s2], "children" == s2 ? v2 = y2 : "dangerouslySetInnerHTML" == s2 ? h2 = y2 : "value" == s2 ? w2 = y2 : "checked" == s2 ? _2 = y2 : c2 && "function" != typeof y2 || m2[s2] === y2 || N(u3, s2, y2, m2[s2], o2);
     if (h2) c2 || p2 && (h2.__html == p2.__html || h2.__html == u3.innerHTML) || (u3.innerHTML = h2.__html), t2.__k = [];
     else if (p2 && (u3.innerHTML = ""), L("template" == t2.type ? u3.content : u3, g(v2) ? v2 : [v2], t2, i2, r2, "foreignObject" == x2 ? "http://www.w3.org/1999/xhtml" : o2, e2, f3, e2 ? e2[0] : i2.__k && $(i2, 0), c2, a2), null != e2) for (s2 = e2.length; s2--; ) b(e2[s2]);
     c2 && "textarea" != x2 || (s2 = "value", "progress" == x2 && null == w2 ? u3.removeAttribute("value") : null != w2 && (w2 !== u3[s2] || "progress" == x2 && !w2 || "option" == x2 && w2 != m2[s2]) && N(u3, s2, w2, m2[s2], o2), s2 = "checked", null != _2 && _2 != u3[s2] && N(u3, s2, _2, m2[s2], o2));
@@ -282,15 +285,63 @@ function u2(e2, t2, n2, o2, i2, u3) {
   return l.vnode && l.vnode(l2), l2;
 }
 
+// node_modules/@quartz-community/utils/dist/index.js
+function slugifyFilePath(fp, excludeExt) {
+  fp = stripSlashes(fp);
+  const ext = getFileExtension(fp);
+  const withoutFileExt = fp.replace(new RegExp(ext + "$"), "");
+  const finalExt = excludeExt || [".md", ".html", void 0].includes(ext) ? "" : ext;
+  let slug2 = _sluggify(withoutFileExt);
+  if (endsWith(slug2, "_index")) {
+    slug2 = slug2.replace(/_index$/, "index");
+  }
+  const segments = slug2.split("/");
+  if (segments.length >= 2 && segments[segments.length - 1] === segments[segments.length - 2]) {
+    segments[segments.length - 1] = "index";
+    slug2 = segments.join("/");
+  }
+  return slug2 + (finalExt ?? "");
+}
+function endsWith(s2, suffix) {
+  return s2 === suffix || s2.endsWith("/" + suffix);
+}
+function stripSlashes(s2, onlyStripPrefix) {
+  if (s2.startsWith("/")) {
+    s2 = s2.substring(1);
+  }
+  if (!onlyStripPrefix && s2.endsWith("/")) {
+    s2 = s2.slice(0, -1);
+  }
+  return s2;
+}
+function getFileExtension(s2) {
+  return s2.match(/\.[A-Za-z0-9]+$/)?.[0];
+}
+function pathToRoot(slug2) {
+  let rootPath = slug2.split("/").filter((x2) => x2 !== "").slice(0, -1).map((_2) => "..").join("/");
+  if (rootPath.length === 0) {
+    rootPath = ".";
+  }
+  return rootPath;
+}
+function slugifyPath(s2) {
+  return s2.split("/").map(
+    (segment) => segment.replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "").replace(/[<>:"|*]/g, "").toLowerCase()
+  ).join("/").replace(/\/$/, "");
+}
+function _sluggify(s2) {
+  return slugifyPath(s2);
+}
+var U200D = String.fromCharCode(8205);
+
 // extensions/s7/components/S7Hero.tsx
 var S7Hero = ({ fileData }) => {
   const image = fileData.frontmatter?.image;
-  const description = fileData.frontmatter?.heroDescription;
-  if (!image) {
-    return null;
-  }
+  const description = fileData.frontmatter?.heroDescription ?? fileData.frontmatter?.summary;
+  if (!image && !description) return null;
+  const imageSrc = image && !/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(image) ? pathToRoot(fileData.slug) + "/" + slugifyFilePath(image.replace(/^\/+/, "")) : image;
   return /* @__PURE__ */ u2("div", { class: "s7-hero", children: [
-    /* @__PURE__ */ u2("img", { src: image, alt: description ?? "" }),
+    imageSrc && /* @__PURE__ */ u2("img", { src: imageSrc, alt: description ?? "" }),
     description && /* @__PURE__ */ u2("div", { class: "s7-hero-description", children: description })
   ] });
 };
