@@ -1,8 +1,7 @@
 ---
 id:
 tipo: atributo
-simbolo:
-orden:
+image: assets/atributo/Percepcion.png
 ---
 
 La **Percepción (Per)** representa la capacidad para detectar detalles y reaccionar ante el entorno. Influye en la iniciativa, el alcance efectivo de los ataques a distancia, así como en la detección de trampas, pistas y enemigos ocultos.

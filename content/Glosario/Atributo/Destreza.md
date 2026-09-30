@@ -1,8 +1,7 @@
 ---
 id:
 tipo: atributo
-simbolo:
-orden:
+image: assets/atributo/Destreza.png
 ---
 
 La **Destreza (Des)** representa la precisión manual, la coordinación fina y el dominio técnico del personaje. Influye en numerosas habilidades de combate, las acciones activas y proporciona el modificador de la defensa **Desvío**.
