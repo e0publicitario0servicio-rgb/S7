@@ -1,9 +1,7 @@
 ---
 title: Fuerza
 tipo: atributo
-image: assets/atributo/atributo.svg
-summary: |
-  La Fuerza representa la potencia física del personaje y determina su capacidad para realizar esfuerzos musculares.
+image: assets/atributo/Fuerza.png
 ---
 
 La **Fuerza (Fue)** representa la potencia física y la capacidad para ejercer fuerza bruta. Influye en el daño de los ataques cuerpo a cuerpo, la capacidad de carga y la habilidad para mover, levantar o romper objetos. También proporciona el modificador de la defensa **Bloqueo**.
