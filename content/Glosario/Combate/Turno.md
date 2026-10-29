@@ -1,0 +1,1 @@
+El **Turno** es el momento que corresponde a un personaje para realizar sus acciones dentro del orden de [[Iniciativa]]. Las reacciones y acciones intrusivas permiten intervenir también en otros momentos, según se explica en [[3.5 Acciones]].

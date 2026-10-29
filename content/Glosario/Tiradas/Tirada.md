@@ -1,0 +1,1 @@
+Una **Tirada** consiste en lanzar el dado indicado por una regla e interpretar su resultado para resolver una acción o efecto. Según el caso, puede requerir sumar modificadores, alcanzar una [[Dificultades|Dificultad]] o comparar el resultado con otra tirada.

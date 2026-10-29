@@ -1,0 +1,1 @@
+export { default as S7Hero } from "./S7Hero"
