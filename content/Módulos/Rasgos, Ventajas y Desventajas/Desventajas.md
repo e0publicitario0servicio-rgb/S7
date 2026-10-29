@@ -42,7 +42,7 @@
 
 - **Enfermedad Crónica (-):** El personaje sufre de una enfermedad que se manifiesta constantemente o en intervalos. Los detalles deben definirse con el director.**Costo:** Variable según la frecuencia, tratamiento y efectos en combate o narrativa (suele oscilar entre 4 y 8).
 
-- **Alergia (2 o 3):** Reacción negativa a una sustancia específica. Penalizadores entre -4 y -8 dependiendo del nivel de exposición. Leve (2 puntos), Grave (3 puntos). El tipo de sustancia y su frecuencia se define con el GM.
+- **Alergia (2 o 3):** Reacción negativa a una sustancia específica. Aplica los penalizadores del estado [[Estados alterados#^alergia|Alergia]]: **−8 a toda acción por exposición directa** al alérgeno y **−4 por exposición indirecta**. Leve (2 puntos), Grave (3 puntos). El tipo de sustancia y su frecuencia se define con el GM.
 
 - **Sueño Pesado (4):** El personaje duerme profundamente. -10 a reflejos mientras duerme. Tras despertar, sufre -4 a toda acción durante los siguientes 10 turnos.
 

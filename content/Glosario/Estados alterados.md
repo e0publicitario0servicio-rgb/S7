@@ -21,7 +21,7 @@ Cuando un personaje recibe un estado que ya tiene, **suma el nuevo valor al exis
 
 Por ejemplo, si tiene Dolor(2) y recibe Dolor(3), pasa a tener Dolor(5).
 
-- **Alergia — Permanente:** Aplica un penalizador de **−4 a toda acción por exposición directa** al alérgeno y de **−2 por exposición indirecta**. El contacto que constituye cada exposición depende del alérgeno. Los penalizadores terminan cuando cesa la exposición, pero la alergia permanece. **Gravedad:** Hard con exposición directa; Easy con exposición indirecta. ^alergia
+- **Alergia — Permanente:** Aplica un penalizador de **−8 a toda acción por exposición directa** al alérgeno y de **−4 por exposición indirecta**. El contacto que constituye cada exposición depende del alérgeno. Los penalizadores terminan cuando cesa la exposición, pero la alergia permanece. **Gravedad:** Hard con exposición directa; Easy con exposición indirecta. ^alergia
 
 - **Aplastado — Permanente:** Causa daño igual al valor del estado y hace progresar la [[Asfixia]] cada turno. Se elimina cuando el personaje deja de estar sometido al aplastamiento. ^aplastado
 
@@ -29,7 +29,7 @@ Por ejemplo, si tiene Dolor(2) y recibe Dolor(3), pasa a tener Dolor(5).
 
 - **Atrapado — Permanente:** Impide moverse, girar y utilizar [[Dash]], lo que impide la [[Esquiva]]. Se elimina cuando el personaje se libera de aquello que lo mantiene atrapado. ^atrapado
 
-- **Aturdimiento — Temporal:** En cada turno del afectado, reduce sus acciones activas disponibles en una cantidad igual al valor del estado, hasta un mínimo de 0. Su valor disminuye en **1 al finalizar ese turno** y el estado se elimina al llegar a 0. ^aturdimiento
+- **Aturdimiento — Temporal:** Al inicio de cada turno del afectado, reduce sus acciones activas disponibles en una cantidad igual al valor del estado, hasta un mínimo de 0. Si recibe el estado después de comenzar su turno, este empieza a aplicarse en su siguiente turno. Su valor disminuye en **1 al finalizar cada turno en que se aplique** y el estado se elimina al llegar a 0. ^aturdimiento
 
 - **Confusión — Temporal:** Obliga a atacar o interactuar con el objetivo más cercano. **Resistencia:** [[Resistencias|Mental]], con frecuencia [[Palabras Clave#^cada|Cada(Turno)]]. ^confusion
 

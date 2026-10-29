@@ -20,7 +20,7 @@ Permite cambiar de posición durante el combate.
 
 Permite mantenerse orientado hacia un objetivo para evitar que obtenga ventajas por flanqueo o ataques por la espalda.
 
-**Coste:** Movimiento(1).
+**Coste:** Acción(Pasiva).
 
 ## Apuntado Activo
 
@@ -34,7 +34,7 @@ Permite concentrarse sobre un objetivo para mejorar la precisión.
 
 ## Recuperación
 
-Permite transferir capacidad para recuperar voluntariamente cualquier medidor, excepto **Salud, Estrés, Sintonía, Psi y Energía**.
+Permite transferir [[Capacidad]] para recuperar [[Maná]]. La ambientación de la campaña puede permitir recuperar otros medidores mediante esta acción, según lo que establezca el Director.
 
 **Coste:** Acción(Pasiva), Cada(Ronda).
 
@@ -44,7 +44,7 @@ Permite adoptar una postura de combate que concede beneficios o modifica el esti
 
 Para entrar en una postura deben cumplirse sus requisitos. Al hacerlo, el turno finaliza inmediatamente.
 
-**Coste:** Movimiento(1).
+**Coste:** Acción(Pasiva).
 
 ## Interactuar
 

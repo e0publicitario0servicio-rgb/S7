@@ -5,7 +5,7 @@ Obtiene **+3 a la tirada contra proyectiles** y no permite bloquear ataques que 
 ## Con qué se bloquea
 
 - **Manos o cuerpo:** Bloquear armas letales hace que el personaje reciba daño. Frente a golpes de puños o similares, un bloqueo exitoso evita el daño.
-- **Arma:** Cada bloqueo con un arma requiere que esta realice una [[Quiebre|Prueba de Quiebre]].
+- **Arma:** Cada bloqueo con un arma requiere comprobar si esta sufre [[Quiebre]], utilizando la tirada del ataque recibido.
 - **Escudo:** Se aplican los beneficios indicados por el escudo.
 
 ## Diferencia de Fuerza
@@ -14,7 +14,7 @@ Compara el atributo de **Fuerza del atacante** con el de **Fuerza del defensor**
 
 |Condición|Daño recibido|
 |---|---|
-|La Fuerza del atacante supera a la del defensor en **5 o más**.|**La mitad del daño**.|
+|La Fuerza del atacante supera a la del defensor en **5 o más**.|**La mitad del daño, redondeada hacia arriba**.|
 |La Fuerza del atacante es **el doble o más** que la del defensor.|**Daño −5**.|
 
 Si se cumplen ambas condiciones, calcula los dos resultados y aplica únicamente **el mayor daño recibido**. No se suman.

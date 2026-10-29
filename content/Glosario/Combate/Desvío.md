@@ -6,8 +6,8 @@ El **Desvío** permite interceptar un ataque utilizando lo que el personaje teng
 
 Si desvía con éxito:
 
-- Recibe **la mitad del daño de efectos elementales**.
-- Recibe **un cuarto del daño contundente**.
+- Recibe **la mitad del daño de efectos elementales, redondeada hacia arriba**.
+- Recibe **un cuarto del daño contundente, redondeado hacia arriba**.
 - Si supera un ataque cuerpo a cuerpo por **3 o más**, puede contraatacar sin contabilizar una acción activa ni pasiva.
 
 Desviar proyectiles o ataques a distancia no permite obtener este contraataque.

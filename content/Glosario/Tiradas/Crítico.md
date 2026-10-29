@@ -11,7 +11,7 @@ Estas reglas se aplican a las [[Habilidades Principales]] y las [[Habilidades Se
 
 Un crítico no garantiza el éxito de la tirada. El beneficio puede aplicarse aunque la acción no tenga éxito, siempre que sea posible cumplir sus condiciones.
 
-Si el beneficio depende de impactar, causar daño o conseguir otro resultado concreto, primero debe cumplirse esa condición. Por ejemplo, obtener un 20 en un ataque no permite causar daño crítico si el defensor evita el golpe.
+Si el beneficio depende de impactar, causar daño o conseguir otro resultado concreto, primero debe cumplirse esa condición.
 
 ## Efectos específicos y beneficios genéricos
 
@@ -23,7 +23,7 @@ Cuando corresponda un beneficio genérico, el jugador puede elegirlo en lugar de
 |---|---|---|
 |[[Iniciativa]]|**19**|Otorga hasta **+2** al resultado de iniciativa de otro personaje.|
 |[[Iniciativa]]|**20**|Obtiene una acción adicional gratuita al inicio de cada ronda. En cada ocasión puede elegir que sea **Activa o Pasiva**.|
-|Ataque|**20**|Si el ataque alcanza al objetivo, causa [[Daño crítico]] sin importar la cantidad de daño causado.|
+|Ataque|**20**|Permite aplicar un beneficio a discreción del Director, como alternativa al efecto mayor correspondiente.|
 |Defensa|**20**|Permite defender automáticamente otro ataque durante el mismo combate. No funciona contra ataques con la palabra clave **Determinada**, descrita en [[Palabras Clave]].|
 
 ## Recompensa narrativa

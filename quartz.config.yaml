@@ -21,23 +21,23 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
+        light: "#f9f8f4"
+        lightgray: "#d9dddf"
+        gray: "#737c87"
+        darkgray: "#394451"
+        dark: "#232d39"
+        secondary: "#315e91"
+        tertiary: "#234871"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
+        light: "#191b1e"
+        lightgray: "#3c4149"
+        gray: "#a0a9b6"
+        darkgray: "#cbd0d8"
+        dark: "#e8e9ed"
+        secondary: "#9cbde5"
+        tertiary: "#c2d8f2"
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
@@ -111,7 +111,7 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: default
       mode: both
@@ -198,7 +198,7 @@ plugins:
       position: beforeBody
       priority: 30
   - source: "@quartz-community/page-title"
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 10
@@ -291,20 +291,26 @@ layout:
       gap: 0.5rem
   byPageType:
     "404":
+      template: s7-editorial
       positions:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      template: s7-editorial
     folder:
+      template: s7-editorial
       exclude:
         - reader-mode
       positions:
         right: []
     tag:
+      template: s7-editorial
       exclude:
         - reader-mode
       positions:
         right: []
-    canvas: {}
-    bases: {}
+    canvas:
+      template: s7-editorial
+    bases:
+      template: s7-editorial

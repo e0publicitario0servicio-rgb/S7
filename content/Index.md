@@ -1,8 +1,9 @@
 ---
-image: /assets/img/s7.webp
-heroDescription: S7RPG o S7 Solamente
+title: Sistema S7
+heroTitle: Un sistema para tu mundo
+heroDescription: Aprende el sistema, crea tu personaje y encuentra las reglas de tu próxima partida.
 ---
-## Capítulo 1 · Fundamentos
+## Fundamentos
 
 Si es tu primera vez en S7, comienza aquí.
 
@@ -12,7 +13,7 @@ Si es tu primera vez en S7, comienza aquí.
 
 ---
 
-## Capítulo 2 · Creación de personaje
+## Creación de personaje
 
 Aprende a construir tu personaje paso a paso.
 
@@ -26,28 +27,29 @@ Aprende a construir tu personaje paso a paso.
 > Información relacionada:
 > - [[Habilidades Principales]]
 > - [[Habilidades Secundarias]]
-> - [[Habilidades de Clase]] de Módulo.
-> - [[Habilidades de Raza]] de Módulo.
-> - [[Habilidades de Oficio]] de Módulo.
+> - [[2.5 Asignando habilidades#Habilidades de Clase o Raza|Habilidades de Clase]] de Módulo.
+> - [[2.5 Asignando habilidades#Habilidades de Clase o Raza|Habilidades de Raza]] de Módulo.
+> - [[Oficios|Habilidades de Oficio]] de Módulo.
 > - [[Atributos]]
 
 ---
 
-## Capítulo 3 · Reglas de juego
+## Reglas de juego
 
 Una vez tengas un personaje, aprende más de cómo funciona el sistema.
 
 1. [[3.1 Tiradas]]
 2. [[3.2 Escenas]]
-3. [[Tiradas enfrentadas]]
-4. [[Combate]]
-5. [[Acciones]]
-6. [[Defensa]]
-7. [[Estados alterados]]
+3. [[3.3 Tiradas enfrentadas]]
+4. [[3.4 Recursos]]
+5. [[3.5 Acciones]]
+6. [[3.6 Combate]]
+7. [[3.7 Defensas]]
+8. [[3.8 Estados alterados]]
 
 ---
 
-## Capítulo 4 · Equipo
+## Equipo
 
 Todo el equipo disponible para los personajes.
 
@@ -58,7 +60,7 @@ Todo el equipo disponible para los personajes.
 
 ---
 
-## Capítulo 5 · Director
+## Director
 
 Reglas y herramientas para dirigir partidas.
 
@@ -66,10 +68,11 @@ Reglas y herramientas para dirigir partidas.
 - [[Encuentros]]
 - [[Recompensas]]
 - [[Creación de NPC]]
+- [[Adaptar contenido]]
 
 ---
 
-## Capítulo 6 · Módulos
+## Módulos
 
 Activa únicamente los módulos que utilice tu campaña.
 
@@ -87,4 +90,4 @@ Activa únicamente los módulos que utilice tu campaña.
 
 Consulta rápida de conceptos y reglas.
 
-- [[Glosario]]
+- [[Glosario/index|Glosario]]

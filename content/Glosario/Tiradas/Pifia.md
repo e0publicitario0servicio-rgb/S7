@@ -9,6 +9,10 @@ El resultado natural es el número mostrado por el dado, antes de aplicar modifi
 
 El **grado de pifia** indica la gravedad del fallo y sus consecuencias.
 
+Los aumentos y reducciones del grado se compensan entre sí. Aplica todos los modificadores antes de limitar el grado resultante a un **máximo de 4**.
+
+_Por ejemplo, un resultado de 4 en el d4 con un aumento de +1 y una reducción de −1 queda en grado 4._
+
 |d4|Grado|Consecuencia|
 |---|---|---|
 |**1**|**Insignificante**|La acción falla sin consecuencias adicionales relevantes. El fallo se explica por las circunstancias, sin atribuirlo necesariamente a una falta de capacidad del personaje.|
@@ -17,6 +21,8 @@ El **grado de pifia** indica la gravedad del fallo y sus consecuencias.
 |**4**|**Catastrófico**|La acción falla con consecuencias especialmente graves: ocurre un desenlace posible, aunque poco probable, que supone un alto coste.|
 
 El Director determina las consecuencias concretas según la acción y las circunstancias.
+
+Al sufrir una pifia, el personaje obtiene tantos puntos de [[Alivio]] como su **grado final**.
 
 _Por ejemplo, Juancho intenta recargar su arma y obtiene una pifia de grado 2. Las balas se le caen al suelo: no logra recargar y tendrá que recogerlas para volver a intentarlo._
 
